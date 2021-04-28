@@ -1,0 +1,58 @@
+.footer{
+    position: relative;
+    background-color: #fff;
+    margin-top: 10px;
+}
+.videofooterText{
+   position: absolute;
+   bottom: 0;
+   color: aliceblue;
+   padding: 20px;
+   margin-bottom: 20px;
+}
+span{
+    color: aliceblue;
+}
+.ticker{
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
+   
+    flex: 1;
+}
+.tickerbox{
+    display: flex;
+    flex-direction: row;
+}
+.sideicon{
+    position: absolute;
+    bottom: 0;
+    color: aliceblue;
+    margin-bottom: 20px;
+    /* margin-left: 20px; */
+    /* transform: translateZ(100px); */
+    /* background-color: #fff; */
+    float: right;
+    margin-left: 100px;
+    display: flex;
+   flex-direction: column;
+   
+   
+}
+.sidefooter{
+    float: right;
+    width: auto;
+    height: auto;
+    position: absolute;
+    background-color: #000;
+    /* margin-left: 20px; */
+    bottom: 50px;
+    margin-left: 180px;
+}
+.icon_box{
+    padding: 10px;
+}
+.song{
+    padding: 5px;
+    margin-left: 5px;
+}
